@@ -1,0 +1,119 @@
+#nav-espaço {
+    margin-right: 3% ;
+    font-size: 150%;
+}   
+#links {
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+}
+header {
+    background-color:whitesmoke;
+    position: fixed;
+}
+.titulo {
+    padding-top: 10%;
+    font-size: 350%;  
+    position: absolute;
+}
+#apresentação {
+    font-size: 120%;
+}
+.home {
+    background-image: url('https://images8.alphacoders.com/559/thumb-1920-559128.jpg');
+    background-size: cover;
+    color: white;
+}
+main {
+    background-color: black;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.txt-certificado {
+    padding-top: 6%;
+}
+#divisão {
+    margin-top: 1%;
+}
+.competencias {
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 0%;
+}
+.fa {
+    padding-top: 4%;
+    text-align: center;
+    width: 180px;
+    font-size: +20;
+}
+.fa:hover{
+    color: #DA70D6;
+}
+.tel{
+    color: white;
+}
+.mail {
+    color:rgba(0, 0, 255, 0.815);
+}
+.tele {
+    color:deepskyblue;
+}
+.git {
+    color: white;
+}
+.sociais a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0px) {
+    #apresentação {
+        margin-top: 70%;
+        font-size: 100%;
+    }
+    .home {
+        height: 45em;
+    }
+    #fotos {
+        width: 80%;
+        cursor: zoom-in;
+    }
+    .titulo {
+        padding-top: 15%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #apresentação {
+        margin-top: 25%;
+        font-size: 120%;
+    }
+    .home {
+        height: 39.8em;
+    }
+    #fotos {
+        width: 25%;
+    }
+    .titulo {
+        padding-top: 10%;
+    }
+}
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid black;
+}

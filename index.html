@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Siniero</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="row">
+    <header class="col-md-12">
+        <nav class="navbar justify-content-between navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="col-7 navbar-brand" id="nav-espaço">Thiago Siniero</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="col-4 collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-fill navbar-nav-scroll">
+                  <li class="nav-item">
+                    <a class="nav-link" id="links" href="">Apresentação</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="links" href="#certificados">Formação Academica</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="links" href="#competencias">Competências</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="links" href="#contato">Contatos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="row text-center justify-content-center home">
+        <p class="titulo col-6">Thiago Siniero</p>
+        <p class="col-7" id="apresentação"> Olá, meu nome é Thiago Siniero, tenho 18 anos de idade, sou Brasileiro e estou aprendendo sobre programação, desejo trabalhar nesta área e estou me aprofundando cada vez mais , recentemente finalizei um curso de Full Stack Developer onde dei um dos meus primeiros passos na programação, no momento estou estudando ainda mais por meio de um site chamado Digital Inovation One e por videos no YouTube, pretendo começar a faculdade no começo de 2022.</p>
+    </section>
+
+    <main class="row col-12" id="certificados">
+        <h3 class="col-12 text-center">Formação Academica</h3><br><br><br><br>
+        <div class="row justify-content-center ">
+            <img onclick="bigImg(this)" onmouseout="normalImg(this)" class="col-md-3" src="imgs/dio-1.jpg" alt="" id="fotos"><br>
+            <p class="col-6 text-center txt-certificado">Este foi o meu primeiro certificado, concluido no site da <a href="https://web.digitalinnovation.one">digitalinnovation.one</a> , <br> onde aprendi as regras basicas da programação e algumas palavras <br> essenciais como: 'software', 'hardware', 'framework', 'back-end', <br> 'front-end', 'fullstack', entre outras.</p>
+        </div>
+        <hr id="divisão">
+        <div class="row justify-content-center ">
+            <img onclick="bigImg(this)" onmouseout="normalImg(this)" class="col-md-3" src="imgs/dio-2.jpg" alt="" id="fotos">
+            <p class="col-6 text-center txt-certificado">Este foi o curso, também feito na <a href="https://web.digitalinnovation.one">digitalinnovation.one</a> <br> onde começei a aprender HTML e CSS, montando meus primeiros layouts <br> e entendendo ainda mais sobre como funciona a codificação e como <br> isso é transformado em informações da página.</p>
+        </div>
+        <hr id="divisão">
+        <div class="row justify-content-center ">
+            <img onclick="bigImg(this)" onmouseout="normalImg(this)" class="col-md-3" src="imgs/dio-3.jpg" alt="" id="fotos">
+            <p class="col-6 text-center txt-certificado">Neste curso começei a me aprofundar mais no CSS e ultilizei o meu primeiro <br> framework, o <a href="https://getbootstrap.com/">Bootstrap</a>, onde aprendi muitas facilidades, economizando <br> muito tempo para fazer algumas codificações, <br> ou seja, um trabalho mais agil.</p>
+        </div>
+        <hr id="divisão">
+        <div class="row justify-content-center ">
+            <img onclick="bigImg(this)" onmouseout="normalImg(this)" class="col-md-3" src="imgs/dio-4.jpg" alt="" id="fotos"><br>
+            <p class="col-6 text-center txt-certificado">Este certificado representa minha competencia com o git e github, <br> onde aprendi a trabalhar em equipe, criar um repositório <br> pessoal ou coletivo, fazer commits, subir meus códigos, clonar trabalhos e <br> resolver conflitos de merge.</p>
+        </div>
+        <hr id="divisão">
+        <div class="row justify-content-center ">
+            <img onclick="bigImg(this)" onmouseout="normalImg(this)" class="col-md-3" src="imgs/dio-5.jpg" alt="" id="fotos">
+            <p class="col-6 text-center txt-certificado">Foi neste curso onde tive meu primeiro contato com uma linguagem <br> de programação, aprendendo atalhos que melhoram a experiencia do usuario <br> no site, um exemplo disso é essa funcão de dar zoom <br> ( mais perceptivel em computadores ) presente nos meus formularios.</p>
+        </div>
+        <hr id="divisão">
+        <div class="row justify-content-center ">
+            <img onclick="bigImg(this)" onmouseout="normalImg(this)" class="col-md-4" src="imgs/SkillLab.jpg" alt="" id="fotos">
+            <p class="col-6 text-center txt-certificado"> Neste curso da <a href="https://skilllabbrasil.com.br/">Skill Lab Brasil</a> foi o mais importante que já fiz, onde aprendi <br> muitas coisas, abrangendo todos este cursos que acabei de descrever <br> e mais alguns, no curso aprendi: HTML, CSS, JS, MYSQL, PHP, Laravel, Linux e outras coisas como Bootstrap, JQuery, Git, Apache, Nginx e Scrum.</p>
+        </div>
+    </main>
+
+    <section class="row col-12 justify-content-center competencias" id="competencias"> 
+        <h2 class="col-12 text-center">Competências</h2><br><br><br><br><br>
+        <img class="col-2" src="imgs/html.png" alt="HTML5">
+        <img class="col-2" src="imgs/css.jpg" alt="CSS3">
+        <img class="col-3" src="imgs/js.jpg" alt="JS">
+        <img class="col-2" src="imgs/php.png" alt="PHP">
+        <img class="col-3" src="imgs/mysql.png" alt="MYSQL">
+        <img class="col-5" src="imgs/laravel.png" alt="LARAVEL">
+        <img class="col-5" src="imgs/linux.png" alt="LINUX">
+    </section>
+    <footer class="row" id="contato">
+        <h2 class="col-12 text-center">Meus Contatos</h2><br><br><br>
+        <div class="col-md-4 sociais tel text-center">
+            <p>Aqui estão minhas redes sociais :</p>
+            <a href="" class="fa fa-envelope-o fa-lg insta"> E-mail</a> <br>
+            <a href="https://github.com/ThiSiniero" class="fa fa-github fa-lg git"> GitHub</a><br>
+            <a href="" class="fa fa-telegram fa-lg tele"> Telegram</a><br>
+        </div>
+        <div class="col-md-4 text-center">
+            
+            <p>Caso tenha algum interesse ou curiosidade, mande mensagem em alguma das minhas redes sociais que responderei o mais rapido possivel.</p><br><br>
+            <p>Feito por Thiago Siniero, Copyright © August 2021 </p>
+        </div>
+        <div class="col-md-4 text-center tel">
+            <h5>Endereço e Gmail :</h5><br>
+            <p>Atibaia,SP,Brasil</p>
+            <p>thiagosiniero@gmail.com</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
