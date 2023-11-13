@@ -3,5 +3,12 @@ function bigImg(x) {
 }
   
 function normalImg(x) {
-    x.style.width = "21.15em";
+    if(window.screen.availWidth < 500) {
+        x.style.width = "80%";
+        return;
+    }
+    x.style.width = "25%";
 }
+
+let inicialImg = document.querySelector(".home");
+inicialImg.style.height = `${window.screen.availHeight}px`;
