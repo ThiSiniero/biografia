@@ -3,8 +3,8 @@ import fundoHome from '../imgs/fundo-home.jpg';
 
 const Apresentation = () => {
     return (
-        <div style={{ backgroundImage: `url(${fundoHome})` }} className="bg-cover min-h-screen flex flex-col justify-center items-center text-center px-4">
-            <p className='text-white text-[350%] font-light tracking-wider mb-6'>Thiago Siniero</p>
+        <div style={{ backgroundImage: `url(${fundoHome})` }} className="bg-cover min-h-screen flex flex-col justify-center items-center text-center px-4 pt-28 md:pt-6">
+            <p className='text-white text-6xl font-light tracking-wider mb-6'>Thiago Siniero</p>
             <div className="md:max-w-[80%] w-full p-8 rounded-lg shadow-lg md:mt-20 ">
                 <p className="text-md md:text-xl font-white text-white mb-4">
                     Olá! Sou um desenvolvedor full-stack e atualmente estou cursando Engenharia da Computação na Universidade São Francisco (USF). 
