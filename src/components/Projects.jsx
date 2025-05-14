@@ -15,27 +15,33 @@ const projects = [
         image: usfProjectsPage, // Replace with your image URL
         link: 'https://usf-projects.vercel.app/index.html',
     },
-    {
-        title: 'Project Three',
-        description: 'This is a brief description of Project Three.',
-        image: 'https://via.placeholder.com/300', // Replace with your image URL
-        link: '#',
-    },
 ];
 
+
+
 const Projects = () => {
+
+    const bigImg = (a) => {
+        a.style.transform = "scale(1.05)";
+        a.style.transition = "transform 0.25s ease";
+    };
+
+    const normalImg = (a) => {
+        a.style.transform = "scale(1)";
+        a.style.transition = "transform 0.25s ease";
+    };
+    
     return (
-        <div className="bg-black text-white py-10">
+        <div id='projects' className="bg-black text-white pb-20 ">
             <div className="container mx-auto">
-                <h2 className="w-full text-center text-[250%] font-bold mb-16">My Projects</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <h2 className="w-full text-center text-[250%] font-bold mb-16">Projetos</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-[90%] md:w-full mx-auto">
                     {projects.map((project, index) => (
-                        <div key={index} className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
-                            <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-md mb-4"/>
+                        <a onMouseOver={(e) => bigImg(e.currentTarget)} onMouseOut={(e) => normalImg(e.currentTarget)} key={index} href={project.link} className="bg-white rounded-lg p-6 hover:">
+                            <img src={project.image} alt={project.title} className="w-full h-60 object-cover rounded-md mb-4"/>
                             <h3 className="text-xl font-semibold mb-2 text-black">{project.title}</h3>
                             <p className="text-gray-600 mb-4">{project.description}</p>
-                            <a href={project.link} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer"> View Project </a>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>

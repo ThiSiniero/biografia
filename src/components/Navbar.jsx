@@ -13,18 +13,23 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#about" className="custom-hover transition-colors duration-200 font-semibold text-lg">
-                About
+              <a href="#formation" className="custom-hover transition-colors duration-200 font-semibold text-lg">
+                Formação
+              </a>
+            </li>
+            <li>
+            <a href="#competencies" className="custom-hover transition-colors duration-200 font-semibold text-lg">
+                Competências
               </a>
             </li>
             <li>
               <a href="#projects" className="custom-hover transition-colors duration-200 font-semibold text-lg">
-                Projects
+                Projetos
               </a>
             </li>
             <li>
               <a href="#contact" className="custom-hover transition-colors duration-200 font-semibold text-lg">
-                Contact
+                Contato
               </a>
             </li>
           </ul>

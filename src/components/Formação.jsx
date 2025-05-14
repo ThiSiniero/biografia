@@ -19,7 +19,7 @@ const Formação = () => {
     };
 
     return (
-        <main className="flex flex-col items-center justify-center w-full min-h-screen bg-black text-white" id="certificados">
+        <main className="flex flex-col items-center justify-center w-full min-h-screen bg-black text-white" id="formation">
             <h3 className="w-full text-center text-[250%] font-bold mb-36">Formação Acadêmica</h3>
 
             <div className="flex flex-col md:flex-row items-center justify-center mb-6">
